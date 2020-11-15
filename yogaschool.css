@@ -1,0 +1,63 @@
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #ffe6f7;
+  height: 200vh;
+}
+
+.sector {
+  margin-top: 50px;
+}
+
+.slogan,
+.info h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #7c817f;
+  transition: 1s;
+}
+
+.info p {
+  color: #030810;
+  line-height: 2;
+}
+
+.info h2:hover,
+.slogan:hover {
+  font-size: 5rem;
+}
+
+#mainNav {
+  font-weight: 400;
+}
+
+#mainNav .nav-link {
+  /* color: #ffe6f7; */
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+#mainNav .navbar-brand {
+  /* color: #ffe6f7; */
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/* .nav-link:hover,
+.navbar-brand:hover {
+  color: #7c817f;
+} */
+
+#mainNav .navbar-toggler {
+  color: #ffe6f7;
+}
+
+/* #mainNav .scrolled {
+  background-color: #ff4d7d;
+  transition: background-color 500ms linear;
+} */
+
+@media (max-width: 1200px) {
+  .info h2 {
+    font-size: 3rem;
+  }
+}
